@@ -94,11 +94,11 @@ Output::
     * src/core/tsconfig.json
     * src/logic/tsconfig.json
 
-12:00:00 AM - Project 'src/core/tsconfig.json' is out of date because output file 'src/core/anotherModule.js' does not exist
+12:00:00 AM - Project 'src/core/tsconfig.json' is out of date because output file 'src/core/tsconfig.tsbuildinfo' does not exist
 
 12:00:00 AM - Building project '/src/core/tsconfig.json'...
 
-12:00:00 AM - Project 'src/logic/tsconfig.json' is out of date because output file 'src/logic/index.js' does not exist
+12:00:00 AM - Project 'src/logic/tsconfig.json' is out of date because output file 'src/logic/tsconfig.tsbuildinfo' does not exist
 
 12:00:00 AM - Building project '/src/logic/tsconfig.json'...
 

@@ -77,7 +77,7 @@ Output::
 [[90m12:01:00 AM[0m] Projects in this build: 
     * src/tsconfig.json
 
-[[90m12:01:00 AM[0m] Project 'src/tsconfig.json' is out of date because output file 'src/obj/bar.js' does not exist
+[[90m12:01:00 AM[0m] Project 'src/tsconfig.json' is out of date because output file 'src/obj/tsconfig.tsbuildinfo' does not exist
 
 [[90m12:01:00 AM[0m] Building project '/src/tsconfig.json'...
 
@@ -89,7 +89,7 @@ getModifiedTime:: {
  "/src/global.d.ts": 1,
  "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1
+ "/src/obj/tsconfig.tsbuildinfo": 1
 }
 
 setModifiedTime:: {}
@@ -285,7 +285,7 @@ Output::
 [[90m12:04:00 AM[0m] Projects in this build: 
     * src/tsconfig.json
 
-[[90m12:04:00 AM[0m] Project 'src/tsconfig.json' is out of date because oldest output 'src/obj/bar.js' is older than newest input 'src/bar.ts'
+[[90m12:04:00 AM[0m] Project 'src/tsconfig.json' is out of date because oldest output 'src/obj/tsconfig.tsbuildinfo' is older than newest input 'src/bar.ts'
 
 [[90m12:04:00 AM[0m] Building project '/src/tsconfig.json'...
 
@@ -305,7 +305,7 @@ getModifiedTime:: {
  "/src/global.d.ts": 1,
  "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1
+ "/src/obj/tsconfig.tsbuildinfo": 1
 }
 
 setModifiedTime:: {}
@@ -456,7 +456,7 @@ Output::
 [[90m12:07:00 AM[0m] Projects in this build: 
     * src/tsconfig.json
 
-[[90m12:07:00 AM[0m] Project 'src/tsconfig.json' is out of date because oldest output 'src/obj/bar.js' is older than newest input 'src/bar.ts'
+[[90m12:07:00 AM[0m] Project 'src/tsconfig.json' is out of date because oldest output 'src/obj/tsconfig.tsbuildinfo' is older than newest input 'src/bar.ts'
 
 [[90m12:07:00 AM[0m] Building project '/src/tsconfig.json'...
 
@@ -470,7 +470,7 @@ getModifiedTime:: {
  "/src/global.d.ts": 1,
  "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1,
+ "/src/obj/tsconfig.tsbuildinfo": 1,
  "/src/obj/bar.d.ts": 1,
  "/src/obj/index.d.ts": 1,
  "/src/obj/lazyIndex.d.ts": 1,
@@ -608,7 +608,7 @@ Output::
 [[90m12:10:00 AM[0m] Projects in this build: 
     * src/tsconfig.json
 
-[[90m12:10:00 AM[0m] Project 'src/tsconfig.json' is out of date because oldest output 'src/obj/bar.js' is older than newest input 'src/bar.ts'
+[[90m12:10:00 AM[0m] Project 'src/tsconfig.json' is out of date because oldest output 'src/obj/tsconfig.tsbuildinfo' is older than newest input 'src/bar.ts'
 
 [[90m12:10:00 AM[0m] Building project '/src/tsconfig.json'...
 
@@ -628,7 +628,7 @@ getModifiedTime:: {
  "/src/global.d.ts": 1,
  "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1
+ "/src/obj/tsconfig.tsbuildinfo": 1
 }
 
 setModifiedTime:: {}
@@ -774,7 +774,7 @@ Output::
 [[90m12:13:00 AM[0m] Projects in this build: 
     * src/tsconfig.json
 
-[[90m12:13:00 AM[0m] Project 'src/tsconfig.json' is out of date because oldest output 'src/obj/bar.js' is older than newest input 'src/lazyIndex.ts'
+[[90m12:13:00 AM[0m] Project 'src/tsconfig.json' is out of date because oldest output 'src/obj/tsconfig.tsbuildinfo' is older than newest input 'src/lazyIndex.ts'
 
 [[90m12:13:00 AM[0m] Building project '/src/tsconfig.json'...
 
@@ -788,7 +788,7 @@ getModifiedTime:: {
  "/src/global.d.ts": 1,
  "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1
+ "/src/obj/tsconfig.tsbuildinfo": 1
 }
 
 setModifiedTime:: {

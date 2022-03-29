@@ -114,11 +114,11 @@ Output::
     * src/logic/tsconfig.json
     * src/tests/tsconfig.json
 
-12:00:00 AM - Project 'src/core/tsconfig.json' is up to date because newest input 'src/core/anotherModule.ts' is older than oldest output 'src/core/anotherModule.js'
+12:00:00 AM - Project 'src/core/tsconfig.json' is up to date because newest input 'src/core/anotherModule.ts' is older than oldest output 'src/core/tsconfig.tsbuildinfo'
 
-12:00:00 AM - Project 'src/logic/tsconfig.json' is up to date because newest input 'src/logic/index.ts' is older than oldest output 'src/logic/index.js'
+12:00:00 AM - Project 'src/logic/tsconfig.json' is up to date because newest input 'src/logic/index.ts' is older than oldest output 'src/logic/tsconfig.tsbuildinfo'
 
-12:00:00 AM - Project 'src/tests/tsconfig.json' is up to date because newest input 'src/tests/index.ts' is older than oldest output 'src/tests/index.js'
+12:00:00 AM - Project 'src/tests/tsconfig.json' is up to date because newest input 'src/tests/index.ts' is older than oldest output 'src/tests/tsconfig.tsbuildinfo'
 
 exitCode:: ExitStatus.Success
 
