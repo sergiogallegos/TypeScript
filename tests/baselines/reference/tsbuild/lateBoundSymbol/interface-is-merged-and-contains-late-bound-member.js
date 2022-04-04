@@ -191,9 +191,7 @@ getModifiedTime:: {
  "/src/tsconfig.tsbuildinfo": 1
 }
 
-setModifiedTime:: {
- "/src/src/hkt.js": 1
-}
+setModifiedTime:: {}
 
 fileExists:: {
  "/src/src/hkt.ts": 1
@@ -314,9 +312,7 @@ getModifiedTime:: {
  "/src/tsconfig.tsbuildinfo": 1
 }
 
-setModifiedTime:: {
- "/src/src/hkt.js": 1
-}
+setModifiedTime:: {}
 
 fileExists:: {
  "/src/src/hkt.ts": 1

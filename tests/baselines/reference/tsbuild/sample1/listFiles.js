@@ -458,11 +458,7 @@ getModifiedTime:: {
  "/src/tests/index.d.ts": 1
 }
 
-setModifiedTime:: {
- "/src/core/anotherModule.js": 1,
- "/src/core/anotherModule.d.ts": 1,
- "/src/core/anotherModule.d.ts.map": 1
-}
+setModifiedTime:: {}
 
 fileExists:: {
  "/src/core/index.ts": 1,
@@ -480,7 +476,6 @@ directoryExists:: {
 }
 
 
-//// [/src/core/anotherModule.d.ts] file changed its modified time
 //// [/src/core/index.d.ts]
 export declare const someString: string;
 export declare function leftPad(s: string, n: number): string;
@@ -754,15 +749,7 @@ getModifiedTime:: {
 }
 
 setModifiedTime:: {
- "/src/core/anotherModule.js": 1,
- "/src/core/anotherModule.d.ts": 1,
- "/src/core/anotherModule.d.ts.map": 1,
- "/src/logic/index.js": 1,
- "/src/logic/index.js.map": 1,
- "/src/logic/index.d.ts": 1,
  "/src/logic/tsconfig.tsbuildinfo": 1,
- "/src/tests/index.js": 1,
- "/src/tests/index.d.ts": 1,
  "/src/tests/tsconfig.tsbuildinfo": 1
 }
 
@@ -851,3 +838,34 @@ var someClass2 = /** @class */ (function () {
 
 //// [/src/logic/tsconfig.tsbuildinfo] file changed its modified time
 //// [/src/tests/tsconfig.tsbuildinfo] file changed its modified time
+
+
+Change:: no-change-run
+Input::
+
+
+Output::
+/lib/tsc --b /src/tests --listFiles
+exitCode:: ExitStatus.Success
+
+getModifiedTime:: {
+ "/src/core/anotherModule.ts": 1,
+ "/src/core/index.ts": 1,
+ "/src/core/some_decl.d.ts": 1,
+ "/src/core/tsconfig.tsbuildinfo": 1,
+ "/src/core/tsconfig.json": 1,
+ "/src/logic/index.ts": 1,
+ "/src/logic/tsconfig.tsbuildinfo": 1,
+ "/src/logic/tsconfig.json": 1,
+ "/src/tests/index.ts": 1,
+ "/src/tests/tsconfig.tsbuildinfo": 1,
+ "/src/tests/tsconfig.json": 1
+}
+
+setModifiedTime:: {}
+
+fileExists:: {}
+
+directoryExists:: {}
+
+
