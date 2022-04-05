@@ -88,19 +88,17 @@ getModifiedTime:: {
  "/src/bundling.ts": 1,
  "/src/global.d.ts": 1,
  "/src/index.ts": 1,
- "/src/lazyIndex.ts": 1
+ "/src/lazyIndex.ts": 1,
+ "/src/obj/bar.js": 1,
+ "/src/obj/bar.d.ts": 1
 }
 
 setModifiedTime:: {}
 
 fileExists:: {
- "/src/bar.ts": 1,
  "/src/bundling.ts": 1,
- "/src/global.d.ts": 1,
- "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1,
- "/src/obj/bar.d.ts": 1
+ "/src/bar.ts": 1
 }
 
 directoryExists:: {
@@ -314,12 +312,9 @@ getModifiedTime:: {
 setModifiedTime:: {}
 
 fileExists:: {
- "/src/bar.ts": 1,
  "/src/bundling.ts": 1,
- "/src/global.d.ts": 1,
- "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1
+ "/src/bar.ts": 1
 }
 
 directoryExists:: {
@@ -491,15 +486,9 @@ setModifiedTime:: {
 }
 
 fileExists:: {
- "/src/bar.ts": 1,
  "/src/bundling.ts": 1,
- "/src/global.d.ts": 1,
- "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1,
- "/src/obj/bar.d.ts": 1,
- "/src/obj/index.d.ts": 1,
- "/src/obj/lazyIndex.d.ts": 1
+ "/src/bar.ts": 1
 }
 
 directoryExists:: {
@@ -646,12 +635,9 @@ getModifiedTime:: {
 setModifiedTime:: {}
 
 fileExists:: {
- "/src/bar.ts": 1,
  "/src/bundling.ts": 1,
- "/src/global.d.ts": 1,
- "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1
+ "/src/bar.ts": 1
 }
 
 directoryExists:: {
@@ -804,6 +790,7 @@ getModifiedTime:: {
  "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
  "/src/obj/bar.js": 1,
+ "/src/obj/bar.d.ts": 1,
  "/src/obj/bundling.d.ts": 1
 }
 
@@ -814,13 +801,9 @@ setModifiedTime:: {
 }
 
 fileExists:: {
- "/src/bar.ts": 1,
  "/src/bundling.ts": 1,
- "/src/global.d.ts": 1,
- "/src/index.ts": 1,
  "/src/lazyIndex.ts": 1,
- "/src/obj/bar.js": 1,
- "/src/obj/bar.d.ts": 1
+ "/src/bar.ts": 1
 }
 
 directoryExists:: {

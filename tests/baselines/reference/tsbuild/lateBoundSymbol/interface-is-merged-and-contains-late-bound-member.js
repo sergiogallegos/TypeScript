@@ -60,16 +60,14 @@ exitCode:: ExitStatus.Success
 getModifiedTime:: {
  "/src/src/globals.d.ts": 1,
  "/src/src/hkt.ts": 1,
- "/src/src/main.ts": 1
+ "/src/src/main.ts": 1,
+ "/src/src/hkt.js": 1
 }
 
 setModifiedTime:: {}
 
 fileExists:: {
- "/src/src/globals.d.ts": 1,
- "/src/src/hkt.ts": 1,
- "/src/src/main.ts": 1,
- "/src/src/hkt.js": 1
+ "/src/src/hkt.ts": 1
 }
 
 directoryExists:: {
@@ -198,10 +196,7 @@ setModifiedTime:: {
 }
 
 fileExists:: {
- "/src/src/globals.d.ts": 1,
- "/src/src/hkt.ts": 1,
- "/src/src/main.ts": 1,
- "/src/src/hkt.js": 1
+ "/src/src/hkt.ts": 1
 }
 
 directoryExists:: {
@@ -324,10 +319,7 @@ setModifiedTime:: {
 }
 
 fileExists:: {
- "/src/src/globals.d.ts": 1,
- "/src/src/hkt.ts": 1,
- "/src/src/main.ts": 1,
- "/src/src/hkt.js": 1
+ "/src/src/hkt.ts": 1
 }
 
 directoryExists:: {
